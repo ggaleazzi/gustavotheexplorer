@@ -1,0 +1,66 @@
+.portfolio {
+  margin: 0px 6vw 0px 6vw; }
+  .portfolio__background {
+    height: 50vw;
+    background-size: cover;
+    background-position: top;
+    position: relative;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    display: grid; }
+    .portfolio__background__sec1 {
+      background-image: url(../img/background1.jpg); }
+    .portfolio__background__sec2 {
+      background-image: url(../img/background2.jpg); }
+    .portfolio__background__sec3 {
+      background-image: url(../img/background3.jpg); }
+
+.buttonport {
+  display: block;
+  font-size: 2rem; }
+  .buttonport__link:link, .buttonport__link:visited {
+    color: red;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    transition: all 0.6s; }
+  .buttonport__link:hover, .buttonport__link:active {
+    color: white;
+    box-shadow: 0 1rem 2rem rgba(255, 0, 0, 0.4);
+    transform: rotate(0deg) scale(1.3); }
+
+.logoport {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-column: 2 / 3;
+  grid-row: 1 / 2; }
+  .logoport__icon {
+    width: 28vw;
+    height: auto; }
+
+.textblockport {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+  color: white; }
+  .textblockport__inner {
+    position: relative; }
+  .textblockport__title {
+    display: block;
+    font-size: 2.5vw;
+    font-weight: 600; }
+  .textblockport__text {
+    display: block;
+    font-size: 1.3vw;
+    font-weight: 600; }
+
+.buttonport {
+  background-color: transparent;
+  text-align: center;
+  border: 1px solid white;
+  color: white;
+  padding: 10px 30px 10px 30px;
+  margin-top: 30px; }
