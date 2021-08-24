@@ -24,7 +24,7 @@
     text-transform: uppercase;
     display: inline-block;
     transition: all 0.3s; 
-    font-size: 2vw; 
+    font-size: 1vw; 
   }
   .buttonport__link:hover, .buttonport__link:active {
     color: white;
@@ -65,8 +65,8 @@
   text-align: center;
   border: 1px solid white;
   color: white;
-  padding: 1vw 2.5vw 1vw 2.5vw;
-  margin-top: 3vw; }
+  padding: .7vw 2vw .7vw 2vw;
+  margin-top: 2vw; }
 
 /*
 0 - 600px:      Phone
