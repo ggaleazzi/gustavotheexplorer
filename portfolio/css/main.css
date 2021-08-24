@@ -1,7 +1,7 @@
 .portfolio {
   margin: 0px 6vw 0px 6vw; }
   .portfolio__background {
-    height: 50vw;
+    height: 45vw;
     background-size: cover;
     background-position: top;
     position: relative;
@@ -17,13 +17,15 @@
 
 .buttonport {
   display: block;
-  font-size: 2rem; }
+  }
   .buttonport__link:link, .buttonport__link:visited {
     color: white;
     text-decoration: none;
     text-transform: uppercase;
     display: inline-block;
-    transition: all 0.3s; }
+    transition: all 0.3s; 
+    font-size: 2vw; 
+  }
   .buttonport__link:hover, .buttonport__link:active {
     color: white;
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.4);
@@ -47,7 +49,8 @@
   grid-row: 1 / 2;
   color: white; }
   .textblockport__inner {
-    position: relative; }
+    position: relative;
+    padding-left: 9vw; }
   .textblockport__title {
     display: block;
     font-size: 2.5vw;
@@ -62,8 +65,8 @@
   text-align: center;
   border: 1px solid white;
   color: white;
-  padding: 10px 30px 10px 30px;
-  margin-top: 30px; }
+  padding: 1vw 2.5vw 1vw 2.5vw;
+  margin-top: 3vw; }
 
 /*
 0 - 600px:      Phone
@@ -132,9 +135,7 @@ html {
 body {
   box-sizing: border-box;
   padding: 3rem; }
-  @media only screen and (max-width: 56.25em) {
-    body {
-      padding: 0; } }
+  
 
 ::selection {
   background-color: #55c57a;
