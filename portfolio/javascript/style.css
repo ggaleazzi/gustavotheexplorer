@@ -35,6 +35,9 @@ main {
   overflow: hidden;
   display: flex;
 }
+.javabox {
+  margin: 0px 6vw 0px 6vw;
+}
 
 .player {
   flex: 50%;
