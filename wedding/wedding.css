@@ -1,0 +1,9 @@
+.weeding_background {
+    position: absolute;
+    background-image: url("wed-background.png");
+}
+
+.wedding_block {
+    position: relative;
+    background-color: floralwhite;
+}
