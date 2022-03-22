@@ -60,6 +60,12 @@
     #map {
         width: 300px;
     }
+    .wedding_block {
+        margin:10px auto;
+    }
+    .video_block {
+        margin:10px auto;
+    }
 }
 
 @media (max-width: 1200px) {
