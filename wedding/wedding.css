@@ -70,5 +70,9 @@
         float:unset;
         display: block;
     }
+    .wedding_background {
+        padding: 3vw 0;
+        height: 1350px;
+    }
 
 }
