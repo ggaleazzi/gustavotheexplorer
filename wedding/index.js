@@ -4,7 +4,7 @@ function initMap() {
     const Finca = { lat: 4.929324264187976, lng: -74.13521732188201 };
     // The map, centered at Finca
     const map = new google.maps.Map(document.getElementById("map"), {
-      zoom: 4,
+      zoom: 200,
       center: Finca,
     });
     // The marker, positioned at Finca
