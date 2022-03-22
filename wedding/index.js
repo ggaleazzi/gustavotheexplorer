@@ -1,15 +1,15 @@
 // Initialize and add the map
 function initMap() {
     // The location of Uluru
-    const uluru = { lat: -25.344, lng: 131.036 };
-    // The map, centered at Uluru
+    const Finca = { lat: 4.929324264187976, lng: -74.13521732188201 };
+    // The map, centered at Finca
     const map = new google.maps.Map(document.getElementById("map"), {
       zoom: 4,
-      center: uluru,
+      center: Finca,
     });
-    // The marker, positioned at Uluru
+    // The marker, positioned at Finca
     const marker = new google.maps.Marker({
-      position: uluru,
+      position: Finca,
       map: map,
     });
   }
