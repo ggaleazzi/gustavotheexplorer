@@ -90,5 +90,6 @@
 @media (max-width: 1200px) {
     .wedding_background {
         height: 1350px;
+        padding: unset;
     }
 }
