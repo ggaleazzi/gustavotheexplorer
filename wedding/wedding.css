@@ -49,19 +49,19 @@
 
 @media (max-width: 700px) {
     .wedding_block {
-        width: 300px;
+        width: 100%;
         margin:10px auto;
     }
     .video_block {
-        width: 300px;
+        width: 100%;
         margin:10px auto;
-        height: 185px;
+        height: 100%;
     }
     .map_block {
-        width: 300px;
+        width: 100%;
     }
     #map {
-        width: 300px;
+        width: 100%;
     }
     
 }
