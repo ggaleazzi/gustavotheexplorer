@@ -84,9 +84,11 @@
         float:unset;
         display: block;
     }
+    
+}
+
+@media (max-width: 1200px) {
     .wedding_background {
-        padding: 3vw 0;
         height: 1350px;
     }
-
 }
