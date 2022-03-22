@@ -1,5 +1,4 @@
 .wedding_background {
-    
     background-image: url("wed-background.png");
     width: 100%;
     height: 760px;
@@ -8,6 +7,10 @@
     padding: 3vw;
 }
 
+.all_blocks {
+    max-width: 1200px;
+    margin: auto;
+}
 .wedding_block {
     
     background-color: floralwhite;
