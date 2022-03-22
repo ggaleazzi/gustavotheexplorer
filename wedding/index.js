@@ -1,4 +1,3 @@
-(function($){
 // Initialize and add the map
 function initMap() {
     // The location of Uluru
@@ -29,5 +28,4 @@ function initMap() {
     }
         console.log($("video").prop('muted'))
     });
-  })(jQuery); 
 
