@@ -14,6 +14,8 @@
 
     <link rel="stylesheet" href="wedding.css" />
     <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
+    <script src="index.js"></script>
+
 
     <title>Pao & Galeazzi | Wedding!</title>
   </head>
@@ -35,6 +37,16 @@
             <h3 class="text">https://co.pinterest.com/corregamboa/outfitbohemioceremonia/</h3>
             <h2 class="text">Regalo: Lluvia de sobres</h2>
             <h3 class="text">Nos vamos a vivir una aventura y ya no hay mas espacio en las maletas</h3>
+        </div>
+        <div class="map_block">
+            <div id="map"></div>
+
+            <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
+            <script
+            src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap&v=weekly"
+            async
+            ></script>
+
         </div>
     </div>
 </body>
