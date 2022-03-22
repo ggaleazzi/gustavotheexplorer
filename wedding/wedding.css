@@ -8,8 +8,15 @@
     background-color: floralwhite;
     text-align: center;
     width: 300px;
+    margin: 5vw;
 }
 
 .text {
     margin: 0;
+}
+
+@media (max-width: 700px) {
+    .wedding_block {
+        margin:auto;
+    }
 }
