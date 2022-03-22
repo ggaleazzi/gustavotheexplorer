@@ -24,7 +24,7 @@
 .map_block {
     height: 300px;
     width: 600px;
-    float: left;
+    float: right;
     margin: 5vw;
     
 }
@@ -35,7 +35,7 @@
 }
   
 .video_block {
-    float: left;
+    float: right;
     width: 535px;
     height: 300px;
     margin: 5vw;
