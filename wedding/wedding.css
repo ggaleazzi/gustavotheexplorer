@@ -51,6 +51,7 @@
     .wedding_block {
         width: 100%;
         margin:10px auto;
+        padding: unset;
     }
     .video_block {
         width: 100%;
@@ -71,6 +72,7 @@
         float:unset;
         margin:30px auto;
         display: block;
+        
     }
     .video_block {
         margin: 0 auto 30px auto;
