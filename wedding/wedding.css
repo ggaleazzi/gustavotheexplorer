@@ -12,6 +12,7 @@
     width: 300px;
     margin: 5vw;
     padding: 10px;
+    float: left;
 }
 
 .text {
@@ -19,15 +20,17 @@
 }
 
 .map_block {
-
+    height: 300px;
+    width: 300px;
+    float: left;
+    margin: 5vw;
+    position: relative;
 }
 
 #map {
-    height: 400px;
-    /* The height is 400 pixels */
-    width: 100%;
-    /* The width is the width of the web page */
-  }
+    height: 300px;
+    width: 300px;
+   }
   
 
 @media (max-width: 700px) {
