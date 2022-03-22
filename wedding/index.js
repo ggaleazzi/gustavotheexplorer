@@ -17,43 +17,26 @@ function initMap() {
 
   
 
-    function toggleMute() 
+  
 
-    {
-
-        var video = document.getElementById("myvideo");
-
-        if (video.muted) 
-
-        {
-
-            video.muted = false;
-
-        } 
-
-        else 
-
-        {
-
-            debugger;
-
-            video.muted = true;
-
-            video.play()
-
-        }
-
+const videoContainerCollection = document.getElementsByClassName('video_block'),
+videoContainerArray = [...videoContainerCollection];
+videoContainerArray.forEach(function(e) {
+  const video = e.querySelector('video'),
+  button = e.querySelector('button');
+  video.muted = true;
+  button.addEventListener('click', function() {
+    button.classList.toggle('muted');
+    if (video.muted === true) {
+      video.muted = false;
     }
-
-    $(document).ready(function () 
-
-    {
-
-        setTimeout(toggleMute, 10);
-
+    else if (video.muted === false) {
+      video.muted = true;
     }
+  });
+});
 
-    )
+
 
 
 
