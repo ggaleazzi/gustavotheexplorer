@@ -17,26 +17,15 @@ function initMap() {
 
   
 
-  
+  $("video").prop('muted', true);
 
-const videoContainerCollection = document.getElementsByClassName('video_block'),
-videoContainerArray = [...videoContainerCollection];
-videoContainerArray.forEach(function(e) {
-  const video = e.querySelector('video'),
-  button = e.querySelector('button');
-  video.muted = true;
-  button.addEventListener('click', function() {
-    button.classList.toggle('muted');
-    if (video.muted === true) {
-      video.muted = false;
-    }
-    else if (video.muted === false) {
-      video.muted = true;
+  $("myvideo").click( function (){
+    if( $("video").prop('muted') ) {
+          $("video").prop('muted', false);
+    } else {
+      $("video").prop('muted', true);
     }
   });
-});
-
-
 
 
 
