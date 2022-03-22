@@ -6,4 +6,10 @@
 .wedding_block {
     position: relative;
     background-color: floralwhite;
+    text-align: center;
+    width: 300px;
+}
+
+.text {
+    margin: 0;
 }
