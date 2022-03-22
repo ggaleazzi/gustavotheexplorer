@@ -9,7 +9,8 @@
 
 .all_blocks {
     max-width: 1200px;
-    margin: auto;
+    margin: 0 5vw;
+    
 }
 
 .wedding_block {
@@ -29,7 +30,7 @@
     height: 300px;
     width: 535px;
     float: right;
-    margin-right: 5vw;
+    margin-left: 1vw;
     
 }
 
@@ -43,12 +44,28 @@
     width: 535px;
     height: 300px;
     margin-bottom: 1vw;
-    margin-right: 5vw;
+    margin-left: 1vw;
 }
 
 @media (max-width: 700px) {
     .wedding_block {
-        margin:30px auto;
+        
         width: 300px;
     }
+}
+
+@media (max-width: 1200px) {
+    .wedding_block {
+        float:unset;
+        margin:30px auto;
+    }
+    .video_block {
+        margin: auto;
+        float:unset;
+    }
+    .map_block {
+        margin: auto;
+        float:unset;
+    }
+
 }
