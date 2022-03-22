@@ -58,14 +58,17 @@
     .wedding_block {
         float:unset;
         margin:30px auto;
+        display: block;
     }
     .video_block {
-        margin: auto;
+        margin: 0 auto 30px auto;
         float:unset;
+        display: block;
     }
     .map_block {
         margin: auto;
         float:unset;
+        display: block;
     }
 
 }
