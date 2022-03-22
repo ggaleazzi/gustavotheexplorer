@@ -72,7 +72,6 @@
         float:unset;
         margin:30px auto;
         display: block;
-        
     }
     .video_block {
         margin: 0 auto 30px auto;
@@ -84,7 +83,9 @@
         float:unset;
         display: block;
     }
-    
+    .all_blocks { 
+        padding: 1vw;
+    }
 }
 
 @media (max-width: 1200px) {
