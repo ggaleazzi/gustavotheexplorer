@@ -67,7 +67,7 @@
     
 }
 
-@media (min-width: 1200px) and (max-width: 1200px) {
+@media (min-width: 700px) and (max-width: 1200px) {
     .wedding_block {
         float:unset;
         margin:30px auto;
