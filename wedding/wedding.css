@@ -1,14 +1,14 @@
 .wedding_background {
-    position: absolute;
+    
     background-image: url("wed-background.png");
     width: 100%;
     height: 100%;
-    max-width: 1200px;
+    max-width: 1400px;
     margin: auto;
 }
 
 .wedding_block {
-    position: relative;
+    
     background-color: floralwhite;
     text-align: center;
     width: 500px;
@@ -26,7 +26,7 @@
     width: 600px;
     float: left;
     margin: 5vw;
-    position: relative;
+    
 }
 
 #map {
