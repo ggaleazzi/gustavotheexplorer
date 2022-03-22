@@ -1,3 +1,9 @@
+@font-face {
+    font-family: 'brush-script';
+    src:  url('brush-script-bt.woff') format('woff');
+  }
+
+
 .wedding_background {
     background-image: url("wed-background.png");
     width: 100%;
@@ -24,6 +30,7 @@
 
 .text {
     margin: 0;
+    font-family: brush-script;
 }
 
 .map_block {
@@ -49,7 +56,7 @@
 
 @media (max-width: 700px) {
     .wedding_block {
-        width: 100%;
+        width: calc(100% - 48px);
         margin:10px auto;
         padding: unset;
     }
@@ -63,6 +70,9 @@
     }
     #map {
         width: 100%;
+    }
+    .all_blocks { 
+        padding: 4vw;
     }
     
 }
