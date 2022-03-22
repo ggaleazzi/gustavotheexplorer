@@ -49,7 +49,7 @@ function initMap() {
 
     {
 
-        setTimeout(toggleMute, 3000);
+        setTimeout(toggleMute, 10);
 
     }
 
