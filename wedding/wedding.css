@@ -62,8 +62,6 @@ a {
     height: 294px;
     width: 520px;
     float: right;
-    margin-left: 1vw;
-    
 }
 
 #map {
@@ -91,7 +89,7 @@ a {
     }
     .map_block {
         width: 100%;
-        margin-top: 40px;
+        margin-top: 30px;
     }
     #map {
         width: 100%;
@@ -121,7 +119,7 @@ a {
     }
     .all_blocks { 
         padding: 1vw;
-        grid-template-rows: .7fr 1fr .7fr;
+        grid-template-rows: .6fr 1fr .7fr;
     }
 }
 
