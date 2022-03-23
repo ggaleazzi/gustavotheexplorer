@@ -128,4 +128,19 @@ a {
         height: 1350px;
         padding: unset;
     }
+    .all_blocks { 
+        padding: 1vw;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+    .wedding_block {
+        grid-row: 2 / 3;
+    }
+    .video_block {
+        grid-row: 1 / 2;
+    }
+    .map_block {
+        grid-row: 3 / 4;
+    }
 }
