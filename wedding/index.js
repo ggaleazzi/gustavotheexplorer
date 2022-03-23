@@ -29,3 +29,7 @@ function initMap() {
         console.log($("video").prop('muted'))
     });
 
+
+    $(document).delegate("div", "click", function() {
+      window.location = $(this).find("a").attr("href");
+   });
