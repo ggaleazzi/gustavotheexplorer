@@ -51,7 +51,7 @@ a {
 }
 
 .text {
-    margin: 2vw;
+    margin: 15px;
 }
 
 .heading {
@@ -81,7 +81,7 @@ a {
 
 @media (max-width: 700px) {
     .wedding_block {
-        width: calc(100% - 48px);
+        width: calc(100%);
         margin:10px auto;
         padding: unset;
     }
