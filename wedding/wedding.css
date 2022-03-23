@@ -36,9 +36,22 @@ h2, h3, h4, h5, h6, p {
     float: left;
 }
 
+a {
+    color:white;
+}
+
+.button {
+    background-color: blueviolet;
+    color: white;
+    font-size: 23px;
+    width: fit-content;
+    margin: auto;
+    border-radius: 20px;
+    padding: 3px 15px;
+}
+
 .text {
-    margin: 0;
-    
+    margin: 2vw;
 }
 
 .heading {
