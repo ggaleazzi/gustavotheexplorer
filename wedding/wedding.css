@@ -59,22 +59,22 @@ a {
 }
 
 .map_block {
-    height: 300px;
-    width: 535px;
+    height: 294px;
+    width: 520px;
     float: right;
     margin-left: 1vw;
     
 }
 
 #map {
-    height: 300px;
-    width: 535px;
+    height: 290px;
+    width: 515px;
 }
   
 .video_block {
     float: right;
-    width: 535px;
-    height: 300px;
+    width: 525px;
+    height: 289px;
     margin-bottom: 1vw;
     margin-left: 1vw;
 }
