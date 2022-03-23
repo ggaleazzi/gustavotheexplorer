@@ -31,5 +31,5 @@ function initMap() {
 
 
     $(document).delegate("div", "click", function() {
-      window.open = $(this).find("a").attr("href", "_blank");
+      window.location = $(this).find("a").attr("href");
    });
