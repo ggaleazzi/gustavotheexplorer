@@ -87,7 +87,7 @@ a {
     .video_block {
         width: 100%;
         margin:10px auto;
-        height: 100%;
+        height: 95%;
     }
     .map_block {
         width: 100%;
@@ -98,6 +98,7 @@ a {
     }
     .all_blocks { 
         padding: 4vw;
+
     }
     
 }
@@ -120,6 +121,7 @@ a {
     }
     .all_blocks { 
         padding: 1vw;
+        grid-template-rows: .7fr 1fr .7fr;
     }
 }
 
@@ -132,7 +134,7 @@ a {
         padding: 1vw;
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: .7fr 1fr .7fr;
+        
     }
     .wedding_block {
         grid-row: 2 / 3;
