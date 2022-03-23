@@ -105,11 +105,11 @@ a {
 @media (min-width: 700px) and (max-width: 1200px) {
     .wedding_block {
         float:unset;
-        margin:30px auto;
+        margin:auto;
         display: block;
     }
     .video_block {
-        margin: 0 auto 30px auto;
+        margin: auto;
         float:unset;
         display: block;
     }
@@ -132,7 +132,7 @@ a {
         padding: 1vw;
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: .5fr 1fr .5fr;
+        grid-template-rows: 0.4fr 1fr .7fr;
     }
     .wedding_block {
         grid-row: 2 / 3;
