@@ -132,7 +132,7 @@ a {
         padding: 1vw;
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-rows: .5fr 1fr .5fr;
     }
     .wedding_block {
         grid-row: 2 / 3;
