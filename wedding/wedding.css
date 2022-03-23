@@ -31,7 +31,7 @@ h2, h3, h4, h5, h6, p {
     background-color: floralwhite;
     text-align: center;
     width: 500px;
-    height: 595px;
+    height: 100%;
     padding: 10px;
     float: left;
 }
