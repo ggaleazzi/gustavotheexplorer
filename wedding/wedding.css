@@ -92,6 +92,7 @@ a {
     }
     .map_block {
         width: 100%;
+        margin-top: 40px;
     }
     #map {
         width: 100%;
@@ -132,7 +133,7 @@ a {
         padding: 1vw;
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 0.4fr 1fr .7fr;
+        grid-template-rows: 0.6fr 1fr .7fr;
     }
     .wedding_block {
         grid-row: 2 / 3;
@@ -143,4 +144,10 @@ a {
     .map_block {
         grid-row: 3 / 4;
     }
+}
+
+@media (min-width: 1200px) {
+.map_block {
+    margin-left: 1vw;
+}
 }
