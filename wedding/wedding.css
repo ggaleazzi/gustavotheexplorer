@@ -4,17 +4,12 @@
   }
 
 @font-face {
-font-family: 'copperplate';
-src:  url('copperplate.woff') format('woff');
-}
-
-@font-face {
-font-family: 'palatino';
-src:  url('palatino.woff') format('woff');
+font-family: 'nexalight';
+src:  url('nexalight.woff') format('woff');
 }
 
 h2, h3, h4, h5, h6, p {
-    font-family: 'palatino';
+    font-family: 'nexalight';
 }
 
 
@@ -153,6 +148,9 @@ a {
 @media (min-width: 1200px) {
     .map_block {
         margin-left: 1vw;
+    }
+    .all_blocks {
+        margin-top: 10vw;
     }
 }
 
