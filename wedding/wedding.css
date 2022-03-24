@@ -59,7 +59,7 @@ a {
     margin: 15px;
 }
 
-.heading {
+.header {
     font-family: brush-script;
 }
 
@@ -151,9 +151,9 @@ a {
 }
 
 @media (min-width: 1200px) {
-.map_block {
-    margin-left: 1vw;
-}
+    .map_block {
+        margin-left: 1vw;
+    }
 }
 
 .header span {
@@ -163,6 +163,6 @@ a {
     cursor:url('http://www.worldofbuzz.com/wp-content/uploads/2016/11/rocket-2.png'), default;
   }
 .header span:hover {
-transform:translateY(-10px) scale(1.5) rotate(20deg);
-z-index: 1;
+    transform:translateY(-10px) scale(1.5) rotate(20deg);
+    z-index: 1;
 }
