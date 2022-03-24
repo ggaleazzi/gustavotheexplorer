@@ -41,7 +41,7 @@ a {
 }
 
 .button {
-    background-color: blueviolet;
+    background-image: url("wed-background.png");
     color: white;
     font-size: 23px;
     width: 100px;
