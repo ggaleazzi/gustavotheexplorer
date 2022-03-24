@@ -10,11 +10,7 @@ function initMap() {
   });
 }
 
-$(document).delegate("div", "click", function() {
-    window.location = $(this).find("a").attr("href");
-});
-
-const heading = document.querySelector('.heading');
+const heading = document.querySelector('.header');
 heading.innerHTML = sparanWrap(heading.textContent);
 
 function sparanWrap(word) {

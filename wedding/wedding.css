@@ -156,13 +156,13 @@ a {
 }
 }
 
-.heading span {
+.header span {
     position: relative;
     display: inline-block;
     transition: transform 0.2s;
     cursor:url('http://www.worldofbuzz.com/wp-content/uploads/2016/11/rocket-2.png'), default;
   }
-.heading span:hover {
+.header span:hover {
 transform:translateY(-10px) scale(1.5) rotate(20deg);
 z-index: 1;
 }
