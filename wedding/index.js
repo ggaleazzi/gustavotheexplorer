@@ -10,8 +10,8 @@ function initMap() {
   });
 }
 
-const heading = document.querySelector('.header');
-heading.innerHTML = sparanWrap(heading.textContent);
+const Heading = document.querySelector('.header');
+Heading.innerHTML = sparanWrap(Heading.textContent);
 
 function sparanWrap(word) {
   return [...word].map(letter => `<span>${letter}</span>`).join('');
