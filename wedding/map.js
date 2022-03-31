@@ -1,6 +1,6 @@
 const tilesProvider = `https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png`
 
-let myMap = L.map('myMap').setView([4.92, -74.13], 13)
+let myMap = L.map('myMap').setView([4.92, -74.13], 10)
 
 L.tileLayer(tilesProvider, {
 	maxZoom: 18,
