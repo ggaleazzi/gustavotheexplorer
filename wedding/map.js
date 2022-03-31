@@ -6,7 +6,7 @@ L.tileLayer(tilesProvider, {
 	maxZoom: 18,
 }).addTo(myMap);
 
-let marker = L.marker([4.92, -74.13]).addTo(myMap)
+let marker = L.marker([4.929324264187976, -74.13521732188201]).addTo(myMap)
 
 let iconMarker = L.icon({
     iconUrl: 'marker.png',
@@ -14,7 +14,7 @@ let iconMarker = L.icon({
     iconAnchor: [30, 60]
 })
 
-let marker2 = L.marker([51.51, -0.09], { icon: iconMarker }).addTo(myMap)
+let marker2 = L.marker([4.929324264187976, -74.13521732188201], { icon: iconMarker }).addTo(myMap)
 
 myMap.doubleClickZoom.disable()
 myMap.on('dblclick', e => {
