@@ -1,4 +1,4 @@
-
+const tilesProvider = `https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png`
 
 let myMap = L.map('myMap').setView([51.505, -0.09], 13)
 
