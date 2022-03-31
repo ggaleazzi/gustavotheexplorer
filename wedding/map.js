@@ -1,12 +1,12 @@
 const tilesProvider = `https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png`
 
-let myMap = L.map('myMap').setView([51.505, -0.09], 13)
+let myMap = L.map('myMap').setView([4.92, -74.13], 13)
 
 L.tileLayer(tilesProvider, {
 	maxZoom: 18,
 }).addTo(myMap);
 
-let marker = L.marker([51.5, -0.09]).addTo(myMap)
+let marker = L.marker([4.92, -74.13]).addTo(myMap)
 
 let iconMarker = L.icon({
     iconUrl: 'marker.png',
