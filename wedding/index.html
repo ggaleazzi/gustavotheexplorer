@@ -40,23 +40,17 @@
           </video>
           
           <div class="map_block">
-              <div id="map"></div>
+            <div id="myMap" style="height: 600px"></div>
 
-              <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
-              <script
-              src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB5aF4lzEC8Lz3k92k5n45LlDqAz8K7jHg&callback=initMap&v=weekly"
-              async
-              ></script>
+            <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+            integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+            crossorigin=""></script>
+            <script src="map.js"></script>
 
           </div>
 
         </div>
     </div>
-    <div id="myMap" style="height: 600px"></div>
-
-    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
-    integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
-    crossorigin=""></script>
-    <script src="map.js"></script>
+    
 </body>
 </html>
