@@ -220,17 +220,19 @@ var loopTimer = setInterval(function(){
 
 
 
-// carousel 2
+// carousel 
 const imgs = document.getElementById('carousel-imgs')
 var i = 0; 			// Start Point
 var images = [];	// Images Array
-var time = 3000;	// Time Between Switch
+var time = 2500;	// Time Between Switch
 	 
 // Image List
 images[0] = "images/bramport.jpg";
 images[1] = "images/carrie-desktop.jpg";
 images[2] = "images/chvrge.jpg";
 images[3] = "images/lemalab.jpg";
+images[4] = "images/localbaskit.jpg";
+images[4] = "images/maxxgarage.jpg";
 
 // Change Image
 function changeImg(){
